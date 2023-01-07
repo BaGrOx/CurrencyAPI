@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\App.xaml
-1-1644662438
+2-2128892392
 
-8-1992699868
+8-2141527238
 2041157747378
-Views\MainWindow.xaml;
+Views\ConvertCurrenciesWindow.xaml;Views\MainWindow.xaml;
 
 False
 

@@ -91,5 +91,6 @@ namespace CurrencyAPIWPF.ViewModels
             convertCurrenciesWindow.Show();
         }
 
+
     }
 }

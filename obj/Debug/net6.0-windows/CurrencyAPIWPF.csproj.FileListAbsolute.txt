@@ -25,11 +25,13 @@ C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\bin\Debug\net6.0-windows\runti
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\obj\Debug\net6.0-windows\CurrencyAPIWPF.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\obj\Debug\net6.0-windows\Views\ConvertCurrenciesWindow.g.cs
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\obj\Debug\net6.0-windows\CurrencyAPIWPF_MarkupCompile.cache
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\obj\Debug\net6.0-windows\CurrencyAPIWPF_MarkupCompile.lref
+C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\obj\Debug\net6.0-windows\Views\ConvertCurrenciesWindow.baml
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\obj\Debug\net6.0-windows\Views\MainWindow.baml
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\obj\Debug\net6.0-windows\CurrencyAPIWPF.g.resources
 C:\Users\Admin\OneDrive\Pulpit\WPF\CurrencyAPIWPF\obj\Debug\net6.0-windows\CurrencyAPIWPF.GeneratedMSBuildEditorConfig.editorconfig

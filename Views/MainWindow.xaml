@@ -16,9 +16,9 @@
         <models:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
     </Window.Resources>
 
-    
+
     <Grid>
-        
+
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
             <RowDefinition Height="10"/>
@@ -27,7 +27,7 @@
 
 
         <Grid Grid.Row="0" Background="LightGreen">
-            <Button x:Name="btnDownloadAPI" Command="{Binding LoadExchangeCurrencyCommand}" Content="Pobierz waluty" Height="30" Width="100" Margin="10,5,440,65">
+            <Button x:Name="btnDownloadAPI" Command="{Binding LoadExchangeCurrencyCommand}" Content="Pobierz waluty" Height="30" Margin="10,5,422,65">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"/>
@@ -35,7 +35,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button x:Name="btnCalculateCurrency" Content="Przelicz kurs" Height="30" Width="100" Margin="147,5,303,65">
+            <Button x:Name="btnCalculateCurrency" Command="{Binding ConvertCurrenciesCommand}" Content="Przelicz kurs" Height="30" Margin="156,5,265,65">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"/>
@@ -54,7 +54,7 @@
                  Margin="10"
                  Foreground="Green"
                  Visibility="{Binding IsLoading, Converter={StaticResource BooleanToVisibilityConverter}}">
-               
+
                 <ProgressBar.Triggers>
                     <EventTrigger RoutedEvent="Loaded">
                         <BeginStoryboard>
@@ -72,7 +72,7 @@
 
             </ProgressBar>
         </Grid>
-        
+
         <Grid Grid.Row="2">
             <DataGrid  ItemsSource="{Binding ExchangeCurrencys}" x:Name="DataGrid" AutoGenerateColumns="False">
                 <DataGrid.Columns>
@@ -84,5 +84,5 @@
             </DataGrid>
         </Grid>
     </Grid>
-    
+
 </Window>

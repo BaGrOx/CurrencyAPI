@@ -3,12 +3,30 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CurrencyAPIWPF.Views"
+        xmlns:local="clr-namespace:CurrencyAPIWPF.Views" xmlns:models="clr-namespace:CurrencyAPIWPF.Models" xmlns:viewmodels="clr-namespace:CurrencyAPIWPF.ViewModels"
         mc:Ignorable="d"
-        Title="ConvertCurrenciesWindow" Height="300" Width="300">
-    <Grid>
-        <StackPanel>
-            
-        </StackPanel>
+        Title="ConvertCurrenciesWindow" Height="300" Width="300" WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <viewmodels:MainViewModel />
+    </Window.DataContext>
+    
+    <Grid Background="LightGreen">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Row="0" >
+            <StackPanel RenderTransformOrigin="0.499,0.58">
+                <Label Content="Przelicze z " Width="70" Height="23" HorizontalAlignment="Left" Margin="10,5,10,10"/>
+
+                <ComboBox ItemsSource="{Binding ExchangeCurrencys}" x:Name="listFrom" Width="100" Height="20" HorizontalAlignment="Left" Margin="10,-10,10,10" DisplayMemberPath="code"/>
+
+                <TextBox x:Name="txtFromValue" Width="100" Height="20" HorizontalAlignment="Right" Margin="10,-30,40,10" PreviewTextInput="txtFromValue_PreviewTextInput"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
